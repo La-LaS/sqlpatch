@@ -37,6 +37,13 @@ A lightweight Ansible-based automation for deploying SQL Server patches across *
       ansible_winrm_transport: ntlm
       ansible_port: '5986'
 ```
+---
+
+## Assumptions
+1. You have knowledge on Ansible/ AWX
+2. You understand how the SQL patch (CU) works
+3. I am installing the patch using Chocolatey which is residing on an Artifactory repo
+
 
 
       
